@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">vitiendas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nombre Usuario</string>
+    <string name="nav_header_subtitle">Usuario</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login -->
+    <string name="home_second">Home Second</string>
+    <string name="contrasenia">contraseña</string>
+    <string name="usuario">Nombre de usuario</string>
+    <string name="ingrese_a_su_cuenta">INGRESE A SU CUENTA</string>
+    <string name="iniciar_sesion">INICIAR SESION</string>
+    <string name="inicio">Inicio</string>
+    <string name="mis_ventas">Mis ventas</string>
+    <string name="administracion_de_preventas">Adm de preventas</string>
+    <string name="control_de_salidas">Control de salidas</string>
+    <string name="clientes">Clientes</string>
+    <string name="caja">Caja</string>
+    <string name="venta">Venta</string>
+    <string name="pre_venta">Pre-Venta</string>
+
+</resources>
