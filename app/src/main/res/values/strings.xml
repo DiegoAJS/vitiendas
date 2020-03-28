@@ -8,18 +8,19 @@
     <string name="action_settings">Settings</string>
 
     <!-- Login -->
-    <string name="home_second">Home Second</string>
-    <string name="contrasenia">contraseña</string>
+    <string name="contrasenia">Contraseña</string>
     <string name="usuario">Nombre de usuario</string>
     <string name="ingrese_a_su_cuenta">INGRESE A SU CUENTA</string>
     <string name="iniciar_sesion">INICIAR SESION</string>
+
+    <!-- nav menu -->
     <string name="inicio">Inicio</string>
-    <string name="mis_ventas">Mis ventas</string>
-    <string name="administracion_de_preventas">Adm de preventas</string>
-    <string name="control_de_salidas">Control de salidas</string>
     <string name="clientes">Clientes</string>
     <string name="caja">Caja</string>
-    <string name="venta">Venta</string>
-    <string name="pre_venta">Pre-Venta</string>
+    <string name="ventas">Ventas</string>
+    <string name="pre_ventas">Pre-Ventas</string>
+    <string name="mis_ventas">Mis ventas</string>
+    <string name="cobros">Cobros</string>
+    <string name="stock_producto">Stock de producto</string>
 
 </resources>

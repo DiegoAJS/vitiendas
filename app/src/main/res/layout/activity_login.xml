@@ -23,52 +23,73 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/background_text"
+            android:layout_marginTop="16dp"
+            android:paddingTop="6dp"
+            android:paddingRight="6dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_person"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="6dp"
+                android:tint="@color/colorAccent"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/filledTextFieldUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:hint="@string/usuario"
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/textInputEditUsuario"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
                     android:textSize="16dp"
-                    android:background="@drawable/background_text"
                     android:padding="6dp"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
 
         </LinearLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/filledTextFieldPassword"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/contrasenia"
+            android:orientation="horizontal"
+            android:background="@drawable/background_text"
+            android:paddingTop="6dp"
             android:layout_marginTop="16dp"
-
-            app:passwordToggleEnabled="true">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/textInputEditUsuarioPassword"
+            android:paddingRight="6dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_https"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="6dp"
+                android:tint="@color/colorAccent"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/filledTextFieldPassword"
                 android:layout_width="match_parent"
-                android:layout_height="54dp"
-                android:textSize="16dp"
-                android:inputType="textPassword"
-                android:background="@drawable/background_text"
-                android:drawableLeft="@drawable/ic_https"
-                android:drawableTint="@color/colorAccent"
-                android:padding="6dp"
-                />
+                android:layout_height="wrap_content"
+                android:hint="@string/contrasenia"
+                app:passwordToggleEnabled="true">
 
-        </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditUsuarioPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:textSize="16dp"
+                    android:inputType="textPassword"
+                    android:padding="6dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/buttonLogin"

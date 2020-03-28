@@ -20,8 +20,6 @@ public class HomeFragment extends Fragment {
     public ImageView mlogo;
     private HomeViewModel homeViewModel;
 
-
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =

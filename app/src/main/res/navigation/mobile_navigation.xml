@@ -11,9 +11,9 @@
         android:label="@string/inicio"
         tools:layout="@layout/fragment_home">
 
-        <action
+        <!--<action
             android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-            app:destination="@id/nav_mis_ventas" />
+            app:destination="@id/nav_mis_ventas" /> -->
     </fragment>
     <!-- <fragment
         android:id="@+id/nav_home_second"
@@ -30,21 +30,45 @@
     </fragment> -->
 
     <fragment
+        android:id="@+id/nav_caja"
+        android:name="com.developerdj.vitiendas.ui.caja.CajaFragment"
+        android:label="@string/caja"
+        tools:layout="@layout/fragment_caja" />
+
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="com.developerdj.vitiendas.ui.clientes.ClientesFragment"
+        android:label="@string/clientes"
+        tools:layout="@layout/fragment_clientes"/>
+
+    <fragment
+        android:id="@+id/nav_pre_ventas"
+        android:name="com.developerdj.vitiendas.ui.preventas.PreVentasFragment"
+        android:label="@string/pre_ventas"
+        tools:layout="@layout/fragment_pre_ventas" />
+
+    <fragment
+        android:id="@+id/nav_ventas"
+        android:name="com.developerdj.vitiendas.ui.ventas.VentasFragment"
+        android:label="@string/ventas"
+        tools:layout="@layout/fragment_ventas" />
+
+    <fragment
+        android:id="@+id/nav_stock_producto"
+        android:name="com.developerdj.vitiendas.ui.stockproducto.StockProductoFragment"
+        android:label="@string/stock_producto"
+        tools:layout="@layout/fragment_stock_producto" />
+
+    <fragment
         android:id="@+id/nav_mis_ventas"
-        android:name="com.developerdj.vitiendas.ui.gallery.GalleryFragment"
+        android:name="com.developerdj.vitiendas.ui.misventas.MisVentasFragment"
         android:label="@string/mis_ventas"
-        tools:layout="@layout/fragment_venta" />
+        tools:layout="@layout/fragment_mis_ventas" />
 
     <fragment
-        android:id="@+id/nav_administracion_preventa"
-        android:name="com.developerdj.vitiendas.ui.slideshow.SlideshowFragment"
-        android:label="@string/administracion_de_preventas"
-        tools:layout="@layout/fragment_caja" />
-
-    <fragment
-        android:id="@+id/nav_control_salida"
-        android:name="com.developerdj.vitiendas.ui.slideshow.SlideshowFragment"
-        android:label="@string/control_de_salidas"
-        tools:layout="@layout/fragment_caja" />
+        android:id="@+id/nav_cobros"
+        android:name="com.developerdj.vitiendas.ui.cobros.CobrosFragment"
+        android:label="@string/cobros"
+        tools:layout="@layout/fragment_cobros" />
 
 </navigation>

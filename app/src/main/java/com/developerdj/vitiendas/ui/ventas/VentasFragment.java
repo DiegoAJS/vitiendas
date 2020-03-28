@@ -1,4 +1,4 @@
-package com.developerdj.vitiendas.ui.controlCobro;
+package com.developerdj.vitiendas.ui.ventas;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,19 +7,15 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.developerdj.vitiendas.R;
 
-public class ControlCobroFragment extends Fragment {
-
-    private ControlCobroViewModel homeViewModel;
+public class VentasFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(ControlCobroViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+
+        View root = inflater.inflate(R.layout.fragment_ventas, container, false);
 
         return root;
     }
