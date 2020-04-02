@@ -21,20 +21,13 @@
             android:icon="@drawable/ic_shopping_cart"
             android:title="@string/pre_ventas" />
         <item
-            android:id="@+id/nav_ventas"
-            android:icon="@drawable/ic_shop"
-            android:title="@string/ventas" />
-        <item
             android:id="@+id/nav_stock_producto"
             android:icon="@drawable/ic_store"
             android:title="@string/stock_producto" />
         <item
             android:id="@+id/nav_mis_ventas"
-            android:icon="@drawable/ic_shopping_basket"
+            android:icon="@drawable/ic_shop"
             android:title="@string/mis_ventas" />
-        <item
-            android:id="@+id/nav_cobros"
-            android:icon="@drawable/ic_attach_money"
-            android:title="@string/cobros" />
+
     </group>
 </menu>

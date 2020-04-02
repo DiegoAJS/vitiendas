@@ -101,7 +101,8 @@
             android:textSize="16dp"
             android:background="@drawable/background_button"
             android:textColor="@android:color/white"
-            android:padding="8dp"/>
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"/>
 
     </LinearLayout>
 

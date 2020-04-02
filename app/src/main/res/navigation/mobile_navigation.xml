@@ -48,12 +48,6 @@
         tools:layout="@layout/fragment_pre_ventas" />
 
     <fragment
-        android:id="@+id/nav_ventas"
-        android:name="com.developerdj.vitiendas.ui.ventas.VentasFragment"
-        android:label="@string/ventas"
-        tools:layout="@layout/fragment_ventas" />
-
-    <fragment
         android:id="@+id/nav_stock_producto"
         android:name="com.developerdj.vitiendas.ui.stockproducto.StockProductoFragment"
         android:label="@string/stock_producto"
@@ -64,11 +58,5 @@
         android:name="com.developerdj.vitiendas.ui.misventas.MisVentasFragment"
         android:label="@string/mis_ventas"
         tools:layout="@layout/fragment_mis_ventas" />
-
-    <fragment
-        android:id="@+id/nav_cobros"
-        android:name="com.developerdj.vitiendas.ui.cobros.CobrosFragment"
-        android:label="@string/cobros"
-        tools:layout="@layout/fragment_cobros" />
 
 </navigation>

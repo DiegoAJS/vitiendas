@@ -13,13 +13,13 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal">
             <TextView
                 android:id="@+id/tv_caja_home"
-                android:layout_width="100dp"
-                android:layout_height="64dp"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
                 android:drawableTop="@drawable/ic_business_center"
                 android:paddingBottom="10dp"
                 android:gravity="center_horizontal"
@@ -29,12 +29,12 @@
                 android:paddingRight="16dp"
                 android:drawableTint="#FFFFFFFF"
                 android:textColor="#FFFFFFFF"
-                android:layout_margin="8dp"
+                android:layout_weight="1"
                 android:background="@drawable/degradado_accent_button"/>
             <TextView
                 android:id="@+id/tv_clientes_home"
-                android:layout_width="100dp"
-                android:layout_height="64dp"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
                 android:drawableTop="@drawable/ic_group"
                 android:paddingBottom="10dp"
                 android:gravity="center_horizontal"
@@ -42,35 +42,21 @@
                 android:paddingTop="10dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
-                android:layout_margin="8dp"
+                android:layout_weight="1"
                 android:drawableTint="#FFFFFFFF"
                 android:textColor="#FFFFFFFF"
                 android:background="@drawable/degradado_accent_button"/>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal">
-            <TextView
-                android:id="@+id/tv_venta_home"
-                android:layout_width="100dp"
-                android:layout_height="64dp"
-                android:drawableTop="@drawable/ic_shop_two"
-                android:paddingBottom="10dp"
-                android:gravity="center_horizontal"
-                android:text="@string/ventas"
-                android:paddingTop="10dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:drawableTint="#FFFFFFFF"
-                android:textColor="#FFFFFFFF"
-                android:layout_margin="8dp"
-                android:background="@drawable/degradado_accent_button"/>
+
             <TextView
                 android:id="@+id/tv_preventa_home"
-                android:layout_width="100dp"
-                android:layout_height="64dp"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
                 android:drawableTop="@drawable/ic_shopping_cart"
                 android:paddingBottom="10dp"
                 android:gravity="center_horizontal"
@@ -78,15 +64,48 @@
                 android:paddingTop="10dp"
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
-                android:layout_margin="8dp"
                 android:drawableTint="#FFFFFFFF"
                 android:textColor="#FFFFFFFF"
+                android:layout_weight="1"
+                android:background="@drawable/degradado_accent_button"/>
+
+            <TextView
+                android:id="@+id/tv_stock_producto_home"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:drawableTop="@drawable/ic_store"
+                android:paddingBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/stock_producto"
+                android:paddingTop="10dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:drawableTint="#FFFFFFFF"
+                android:textColor="#FFFFFFFF"
+                android:layout_weight="1"
                 android:background="@drawable/degradado_accent_button"/>
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_mis_ventas_home"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:drawableTop="@drawable/ic_shop"
+            android:paddingBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/ventas"
+            android:paddingTop="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawableTint="#FFFFFFFF"
+            android:textColor="#FFFFFFFF"
+
+            android:background="@drawable/degradado_accent_button"/>
+
         <ImageView
             android:id="@+id/iv_logo_home"
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="170dp"
             android:layout_gravity="center_horizontal"
             android:src="@android:drawable/ic_menu_gallery"/>
 

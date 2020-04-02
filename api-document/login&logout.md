@@ -42,7 +42,7 @@ api/v1/auth/login
             },
             {
                 "description": "Almacenero"
-            },
+            }
         ],
         "access_permits": [
             {
