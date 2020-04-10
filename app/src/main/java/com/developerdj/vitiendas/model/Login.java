@@ -9,6 +9,7 @@ public class Login {
         return username;
     }
 
+
     public void setUsername(String username) {
         this.username = username;
     }
@@ -21,11 +22,5 @@ public class Login {
         this.password = password;
     }
 
-    @Override
-    public String toString() {
-        return "Login{" +
-                "username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                '}';
-    }
+
 }

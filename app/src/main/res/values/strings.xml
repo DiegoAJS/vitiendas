@@ -23,4 +23,11 @@
     <string name="cobros">Cobros</string>
     <string name="stock_producto">Stock de producto</string>
 
+    <!-- Errores sign up -->
+    <string name="name_error">Error nombre</string>
+    <string name="email_error">Error email</string>
+    <string name="email_doesnt_match">Error formato email</string>
+    <string name="password_error">Error password</string>
+    <string name="password_error_less_than">Password debe ser mayor de 4 caracteres</string>
+
 </resources>
