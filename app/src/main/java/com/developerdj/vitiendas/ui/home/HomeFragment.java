@@ -31,7 +31,6 @@ public class HomeFragment extends Fragment {
             public void onChanged(@Nullable String s) {
                 Glide.with(getContext())
                         .load(s)
-                        .centerCrop()
                         .into(mlogo);
             }
         });

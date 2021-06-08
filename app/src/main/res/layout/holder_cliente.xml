@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/tv_razonsocial_holder_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Razon Social"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:drawableLeft="@drawable/ic_person"/>
+        <TextView
+            android:id="@+id/tv_categoria_holder_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/categoria"
+            android:drawableLeft="@drawable/ic_widgets"/>
+        <TextView
+            android:id="@+id/tv_ciudad_holder_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/ciudad"
+            android:drawableLeft="@drawable/ic_location_city"/>
+        <TextView
+            android:id="@+id/tv_zona_holder_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/zona"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_map"/>
+        <TextView
+            android:id="@+id/tv_direccion_holder_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/direccion"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_location_on"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tv_numero_holder_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="numero"
+                android:drawableLeft="@drawable/ic_call"
+                android:gravity="center_vertical"
+                android:drawableTint="@android:color/holo_green_dark"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/tv_email_holder_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email"
+                android:drawableTint="@android:color/holo_orange_dark"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/ic_email"
+                android:gravity="center_vertical"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

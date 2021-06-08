@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context=".ui.home.HomeFragment">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal">
+            android:layout_height="wrap_content">
             <TextView
                 android:id="@+id/tv_caja_home"
                 android:layout_width="match_parent"
@@ -24,9 +20,7 @@
                 android:paddingBottom="10dp"
                 android:gravity="center_horizontal"
                 android:text="@string/caja"
-                android:paddingTop="10dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:paddingTop="16dp"
                 android:drawableTint="#FFFFFFFF"
                 android:textColor="#FFFFFFFF"
                 android:layout_weight="1"
@@ -39,9 +33,7 @@
                 android:paddingBottom="10dp"
                 android:gravity="center_horizontal"
                 android:text="@string/clientes"
-                android:paddingTop="10dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:paddingTop="16dp"
                 android:layout_weight="1"
                 android:drawableTint="#FFFFFFFF"
                 android:textColor="#FFFFFFFF"
@@ -50,8 +42,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/tv_preventa_home"
@@ -61,9 +52,7 @@
                 android:paddingBottom="10dp"
                 android:gravity="center_horizontal"
                 android:text="@string/pre_ventas"
-                android:paddingTop="10dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:paddingTop="16dp"
                 android:drawableTint="#FFFFFFFF"
                 android:textColor="#FFFFFFFF"
                 android:layout_weight="1"
@@ -77,9 +66,7 @@
                 android:paddingBottom="10dp"
                 android:gravity="center_horizontal"
                 android:text="@string/stock_producto"
-                android:paddingTop="10dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:paddingTop="16dp"
                 android:drawableTint="#FFFFFFFF"
                 android:textColor="#FFFFFFFF"
                 android:layout_weight="1"
@@ -94,12 +81,9 @@
             android:paddingBottom="10dp"
             android:gravity="center_horizontal"
             android:text="@string/ventas"
-            android:paddingTop="10dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
+            android:paddingTop="16dp"
             android:drawableTint="#FFFFFFFF"
             android:textColor="#FFFFFFFF"
-
             android:background="@drawable/degradado_accent_button"/>
 
         <ImageView
@@ -107,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="170dp"
             android:layout_gravity="center_horizontal"
-            android:src="@android:drawable/ic_menu_gallery"/>
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_gallery" />
 
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

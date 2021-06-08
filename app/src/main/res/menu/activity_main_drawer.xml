@@ -29,5 +29,12 @@
             android:icon="@drawable/ic_shop"
             android:title="@string/mis_ventas" />
 
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_exit_to_app"
+            android:title="Salir app" />
+
+
     </group>
+
 </menu>

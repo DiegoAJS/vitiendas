@@ -29,5 +29,12 @@
     <string name="email_doesnt_match">Error formato email</string>
     <string name="password_error">Error password</string>
     <string name="password_error_less_than">Password debe ser mayor de 4 caracteres</string>
+    <string name="filtro">Filtro</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="buscar">Buscar</string>
+    <string name="categoria">Categoria</string>
+    <string name="zona">Zona</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="direccion">Direccion</string>
 
 </resources>
